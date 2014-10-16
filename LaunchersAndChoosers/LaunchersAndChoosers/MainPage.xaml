@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="LaunchersAndChoosers.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LaunchersAndChoosers"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button Name="btnChat" Margin="131,132,0,451" Click="btnChat_Click">Chat</Button>
+        <Button x:Name="btnCall" Margin="131,230,0,353" Content="Call" Click="btnCall_Click"/>
+        <Button x:Name="btnImages" Margin="131,325,0,258" Content="Images" Click="btnImages_Click">
+        </Button>
+    </Grid>
+</Page>
